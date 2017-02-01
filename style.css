@@ -27,7 +27,13 @@ body {
 
 }
 
-header { background: #d21034; }
+header { 
+
+  background: #d21034; 
+  width: 20%;
+  margin-left: 100px;
+  margin-top: 50px;
+}
 
 h1 {
   
@@ -44,7 +50,7 @@ h1 {
   text-align: center;
   
   /* Visual */
-  background: #333333;
+  background: #4aaaa5;
   
 }
 
@@ -64,11 +70,20 @@ a { color: #d21034; }
 
 #main-bio,
 #contact-info,
-#bio-image { float: left; }
+#bio-image { 
+  /*float: left; */
+  /*position: relative;*/
+
+}
 
 #main-bio { width: 70%; }
 
-#contact-info { width: 30%; }
+#contact-info { 
+  width: 30%; 
+  background-color: orange;
+  position: inherit;
+
+}
 
 #bio-image {
 
