@@ -19,29 +19,26 @@ body {
   line-height: 150%;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #333333;
+}
 
-  /* Visual */
-  /*background: #efeee7;*/
+#portfolio {
+    background-color: white;
+    width: 585px;
+    height: 500px;
+    float: left;
+    padding: 10px;
 
 }
 
 #button {
     background-color: #4aaaa5;
     width: 100px;
-    /* margin: 5px; */
-    padding: 3px;
-    /* padding-bottom: 3px; */
-    /* padding-top: 3px; */
+    padding-top: 5px;
+    padding-bottom: 2px;
+    height: 30px;
     text-align: center;
     color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
-}
-
-#colored-box  {
-    background-color: #4aaaa5;
-    width: 200px;
-    position: absolute;
 }
 
 #box img {
@@ -62,7 +59,7 @@ body {
 #box{
   background-color: white;
   width: 650px;
-  height: 550px;
+  height: 400px;
   float: left;
   padding: 20px;
 
@@ -178,14 +175,6 @@ a { color: #d21034; }
 
   display: inherit;
   
-}
-
-#main-bio,
-#contact-info,
-#bio-image { 
-  /*float: left; */
-  /*position: relative;*/
-
 }
 
 #main-bio { width: 70%; }
